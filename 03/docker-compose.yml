@@ -1,0 +1,60 @@
+# 编排php,redis,nginx容器
+version: "3.6" # 确定docker-composer文件的版本
+services: # 代表就是一组服务 - 简单来说一组容器
+  swoft_110: # 这个表示服务的名称，课自定义; 注意不是容器名称
+    image: swoft  # 指定容器的镜像文件
+    container_name: swoft_al_cli_110 # 这是容器的名称
+    networks: ## 引入外部预先定义的网段
+       swoft_consul:
+         ipv4_address: 172.22.22.110   #设置ip地址
+    privileged: true # 执行特殊权限的命令
+    volumes: # 配置数据挂载
+        - /www/wwwroot/2007_SRM/03/swoft:/var/www/swoft
+    working_dir: /var/www/swoft #工作目录
+  swoft_120: # 这个表示服务的名称，课自定义; 注意不是容器名称
+    image: swoft  # 指定容器的镜像文件
+    container_name: swoft_al_cli_120 # 这是容器的名称
+    networks: ## 引入外部预先定义的网段
+       swoft_consul:
+         ipv4_address: 172.22.22.120   #设置ip地址
+    privileged: true # 执行特殊权限的命令
+    volumes: # 配置数据挂载
+        - /www/wwwroot/2007_SRM/03/swoft:/var/www/swoft
+    working_dir: /var/www/swoft #工作目录
+  swoft_130: # 这个表示服务的名称，课自定义; 注意不是容器名称
+    image: swoft  # 指定容器的镜像文件
+    container_name: swoft_al_cli_130 # 这是容器的名称
+    networks: ## 引入外部预先定义的网段
+       swoft_consul:
+         ipv4_address: 172.22.22.130   #设置ip地址
+    privileged: true # 执行特殊权限的命令
+    volumes: # 配置数据挂载
+        - /www/wwwroot/2007_SRM/03/swoft:/var/www/swoft
+    working_dir: /var/www/swoft #工作目录
+  nginx: # 这个表示服务的名称，课自定义; 注意不是容器名称
+    image: nginx1.17 # 指定容器的镜像文件
+    ports: # 配置容器与宿主机的端口
+      - "81:80"
+    networks: ## 引入外部预先定义的网段
+       swoft_consul:
+         ipv4_address: 172.22.22.20   #设置ip地址
+    container_name: nginx1.17 # 这是容器的名称
+    volumes: # 配置数据挂载
+        - /www/wwwroot/2007_SRM/03/docker-service/nginx:/nginx
+  consul: # 这个表示服务的名称，课自定义; 注意不是容器名称
+    image: consul1.4 # 指定容器的镜像文件
+    ports: # 配置容器与宿主机的端口
+      - "8500:8500"
+    networks: ## 引入外部预先定义的网段
+       swoft_consul:
+         ipv4_address: 172.22.22.30   #设置ip地址
+    container_name: consul1.4 # 这是容器的名称
+    command: ./consul agent -server -bootstrap-expect 1 -data-dir /tmp/consul -node=ali -bind=172.22.22.30 -ui -client=0.0.0.0
+# 设置网络模块
+networks:
+  # 自定义网络
+  swoft_consul:
+    driver: bridge
+    ipam: #定义网段
+      config:
+        - subnet: "172.22.22.0/24"
