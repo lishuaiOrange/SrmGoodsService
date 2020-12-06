@@ -70,7 +70,7 @@ class RegisterServiceListener implements EventHandlerInterface
             ],
             'Check'=>[
                 'name'=>'swoft.goods.server',
-                'tcp'=>"192.168.145.128:18317",
+                env('CONSUL_CHECK_TYPE')=> env('CONSUL_CHECK_IP').':' .env('CONSUL_CHECK_PORT'),
                 'interval'=>'5s', //没隔5s检测
                 'timeout'=>'2s' //发送数据包，接收回复超时的时间
             ]

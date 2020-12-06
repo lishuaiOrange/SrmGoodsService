@@ -1,19 +1,22 @@
 #! \bin\sh
 ip=`ip addr | grep 200.7 | awk '{print $2}' | awk -F '/' '{print $1}'`
 content="HOST="$ip"\n"
-while getopts "t:ip:p" opt;
+while getopts "t:p:o:" opt;
 do
     case $opt in
     t)
-        content=$content"CONSUL_CHECK_TYPE="$OPTARG"\n"
-      ;;
-    ip)
-        content=$content"CONSUL_CHECK_IP="$OPTARG"\n"
+        type=$OPTARG
+        content=$content"CONSUL_CHECK_TYPE="$type"\n"
       ;;
     p)
-        content=$content"CONSUL_CHECK_PORT="$OPTARG"\n"
+        ip=$OPTARG
+        content=$content"CONSUL_CHECK_IP="$ip"\n"
+      ;;
+    o)
+        port=$OPTARG
+        content=$content"CONSUL_CHECK_PORT="$port"\n"
       ;;
     esac
 done
-
+#echo -e $content
 echo -e $content > /var/www/.env

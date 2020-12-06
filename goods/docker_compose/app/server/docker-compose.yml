@@ -13,7 +13,7 @@ services: # 代表就是一组服务 - 简单来说一组容器
     volumes: # 配置数据挂载
         - /www/wwwroot/2007_SRM/goods/app/server/swoft:/var/www/swoft
     working_dir: /var/www/swoft #工作目录
-    command: php bin/swoft rpc:start ext_init=-ip:192.168.145.129?-t:tcp?-p:18317
+    command: php bin/swoft rpc:start ext_init=-t:tcp?-p:192.168.145.128?-o:18317
 #  swoft_goods_server_172_120: # 这个表示服务的名称，课自定义; 注意不是容器名称
 #    image: swoft  # 指定容器的镜像文件
 #    container_name: swoft_goods_server_172_120 # 这是容器的名称

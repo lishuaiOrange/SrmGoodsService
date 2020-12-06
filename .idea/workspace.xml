@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ed938e2-8d4e-408a-8e0c-cca8871973c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/goods/app/server/swoft/app/Helper/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/goods/app/server/swoft/app/Helper/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goods/app/server/swoft/app/Listener/RegisterServiceListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/goods/app/server/swoft/app/Listener/RegisterServiceListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods/app/server/swoft/bin/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/goods/app/server/swoft/bin/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goods/docker_compose/app/server/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/goods/docker_compose/app/server/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goods/docker_images/init.sh" beforeDir="false" />
     </list>
@@ -106,8 +105,16 @@
       <workItem from="1607138712356" duration="5734000" />
       <workItem from="1607179771826" duration="2049000" />
       <workItem from="1607225940200" duration="1849000" />
-      <workItem from="1607228359364" duration="14489000" />
+      <workItem from="1607228359364" duration="18704000" />
     </task>
+    <task id="LOCAL-00001" summary="完善shell脚本&#10;注意shell脚本在linux下编写，不然会出现^M问题，mac忽略">
+      <created>1607253324448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607253324448</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/goods/app/server/swoft" />
     </ignored-roots>
+    <MESSAGE value="完善shell脚本&#10;注意shell脚本在linux下编写，不然会出现^M问题，mac忽略" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善shell脚本&#10;注意shell脚本在linux下编写，不然会出现^M问题，mac忽略" />
   </component>
   <component name="WindowStateProjectService">
     <state x="502" y="219" key="#Deployment" timestamp="1607252806341">
@@ -135,10 +144,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="350" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604725594418" />
-    <state x="645" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607252907891">
+    <state x="645" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607261251627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607252907891" />
+    <state x="645" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607261251627" />
     <state x="727" y="271" key="#docker-compose.yml.swoft_110:_Compose_Deployment" timestamp="1604233651658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,10 +156,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1303" y="289" key="#docker-compose.yml:_Compose_Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1604233858591" />
-    <state x="374" y="14" width="1720" height="825" key="DiffContextDialog" timestamp="1607252803618">
+    <state x="513" y="0" key="CommitChangelistDialog2" timestamp="1607253323520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="374" y="14" width="1720" height="825" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607252803618" />
+    <state x="513" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607253323520" />
+    <state x="-254" y="210" width="1720" height="825" key="DiffContextDialog" timestamp="1607253457294">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-254" y="210" width="1720" height="825" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607253457294" />
     <state x="47" y="183" width="1736" height="856" key="DirDiffDialog" timestamp="1607228676379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
