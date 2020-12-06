@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ed938e2-8d4e-408a-8e0c-cca8871973c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/goods/app/server/swoft/app/Helper/Functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/goods/app/server/swoft/app/Helper/Functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods/app/server/swoft/app/Listener/RegisterServiceListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/goods/app/server/swoft/app/Listener/RegisterServiceListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods/app/server/swoft/bin/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/goods/app/server/swoft/bin/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods/docker_compose/app/server/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/goods/docker_compose/app/server/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods/docker_images/init.sh" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jgjtfp5YvqopMAxqEZkfdj4F5P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../consul" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\phpStudy\WWW\srm-docker\03" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\phpStudy\WWW\srm-docker\goods\app\server\swoft\config" />
+      <recent name="F:\phpStudy\WWW\srm-docker\goods\app\server\swoft" />
+      <recent name="F:\phpStudy\WWW\srm-docker\goods\app\server" />
+      <recent name="F:\phpStudy\WWW\srm-docker\goods" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.swoft_110: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="swoft_110" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.swoft_110: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ed938e2-8d4e-408a-8e0c-cca8871973c9" name="Default Changelist" comment="" />
+      <created>1604232844499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604232844499</updated>
+      <workItem from="1604232845675" duration="372000" />
+      <workItem from="1604233320063" duration="10302000" />
+      <workItem from="1604274093810" duration="2490000" />
+      <workItem from="1604327977667" duration="599000" />
+      <workItem from="1604360076203" duration="2073000" />
+      <workItem from="1604678819074" duration="2509000" />
+      <workItem from="1604718548173" duration="661000" />
+      <workItem from="1604725167195" duration="3128000" />
+      <workItem from="1604802938932" duration="11068000" />
+      <workItem from="1604879304265" duration="2142000" />
+      <workItem from="1604929923485" duration="1944000" />
+      <workItem from="1604931904805" duration="3299000" />
+      <workItem from="1605054008389" duration="208000" />
+      <workItem from="1605138385692" duration="2234000" />
+      <workItem from="1605537614381" duration="1228000" />
+      <workItem from="1605571431214" duration="26000" />
+      <workItem from="1607138712356" duration="5734000" />
+      <workItem from="1607179771826" duration="2049000" />
+      <workItem from="1607225940200" duration="1849000" />
+      <workItem from="1607228359364" duration="14489000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/goods/app/server/swoft" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="502" y="219" key="#Deployment" timestamp="1607252806341">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="502" y="219" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1607252806341" />
+    <state x="847" y="355" key="#Notifications" timestamp="1604808640841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="847" y="355" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1604808640841" />
+    <state x="626" y="258" key="#Options" timestamp="1607228618502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="258" key="#Options/0.0.1920.1040@0.0.1920.1040" timestamp="1607228618502" />
+    <state x="700" y="350" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604725594418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="700" y="350" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604725594418" />
+    <state x="645" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607252907891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607252907891" />
+    <state x="727" y="271" key="#docker-compose.yml.swoft_110:_Compose_Deployment" timestamp="1604233651658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="271" key="#docker-compose.yml.swoft_110:_Compose_Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1604233651658" />
+    <state x="1303" y="289" key="#docker-compose.yml:_Compose_Deployment" timestamp="1604233858591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1303" y="289" key="#docker-compose.yml:_Compose_Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1604233858591" />
+    <state x="374" y="14" width="1720" height="825" key="DiffContextDialog" timestamp="1607252803618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="374" y="14" width="1720" height="825" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607252803618" />
+    <state x="47" y="183" width="1736" height="856" key="DirDiffDialog" timestamp="1607228676379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="47" y="183" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607228676379" />
+    <state x="673" y="359" key="FileChooserDialogImpl" timestamp="1607226999774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="673" y="359" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607226999774" />
+    <state x="130" y="130" width="1412" height="776" key="SettingsEditor" timestamp="1607229033918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="130" y="130" width="1412" height="776" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607229033918" />
+    <state x="726" y="251" width="594" height="564" key="find.popup" timestamp="1607154506340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="251" width="594" height="564" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607154506340" />
+    <state x="952" y="325" width="547" height="700" key="ftp.server.browser" timestamp="1607227342181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="952" y="325" width="547" height="700" key="ftp.server.browser/0.0.1920.1040@0.0.1920.1040" timestamp="1607227342181" />
+    <state x="830" y="456" key="publish.login" timestamp="1604274114258">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="830" y="456" key="publish.login/0.0.1920.1040@0.0.1920.1040" timestamp="1604274114258" />
+    <state x="630" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1604809881308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="630" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604809881308" />
+  </component>
+</project>

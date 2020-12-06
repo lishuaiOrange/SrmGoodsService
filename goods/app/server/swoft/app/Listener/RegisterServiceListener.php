@@ -58,7 +58,7 @@ class RegisterServiceListener implements EventHandlerInterface
             'Tags'              => [
                 'rpc'
             ],
-            'Address'           => env('host'),
+            'Address'           => env('HOST'),
             'Port'              => $rpcServer->getPort(),
             'Meta'              => [
                 'version' => '1.0'
