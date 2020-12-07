@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ed938e2-8d4e-408a-8e0c-cca8871973c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/goods/docker_compose/app/client/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/app/client/swoft/app/Http/Controller/GoodsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/app/client/swoft/app/Rpc/Lib/GoodsInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/app/server/swoft/app/Rpc/Lib/GoodsInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goods/app/server/swoft/app/Rpc/Service/GoodsService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goods/app/client/swoft/app/bean.php" beforeDir="false" afterPath="$PROJECT_DIR$/goods/app/client/swoft/app/bean.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +19,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/goods/app/server/swoft/app/Rpc/Lib/UserInterface.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/goods/app/server/swoft/app/Rpc/Service/GoodsService.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1jgjtfp5YvqopMAxqEZkfdj4F5P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,16 +39,16 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SRM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/goods/app/client/swoft/app/Rpc/Lib" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\phpStudy\WWW\srm-docker\goods\docker_compose\app" />
-      <recent name="F:\phpStudy\WWW\srm-docker\goods\app\server\swoft\config" />
-      <recent name="F:\phpStudy\WWW\srm-docker\goods\app\server\swoft" />
-      <recent name="F:\phpStudy\WWW\srm-docker\goods\app\server" />
-      <recent name="F:\phpStudy\WWW\srm-docker\goods" />
+      <recent name="F:\phpStudy\WWW\srm-docker\goods\app\client\swoft\app\Rpc\Lib" />
+      <recent name="F:\phpStudy\WWW\srm-docker\goods\app\client\swoft\app\Http\Controller" />
+      <recent name="F:\phpStudy\WWW\srm-docker\goods\app\server\swoft\app\Rpc\Service" />
+      <recent name="F:\phpStudy\WWW\srm-docker\goods\app\server\swoft\app\Rpc\Lib" />
+      <recent name="F:\phpStudy\WWW\srm-docker" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\phpStudy\WWW\srm-docker\03" />
@@ -105,7 +113,7 @@
       <workItem from="1607179771826" duration="2049000" />
       <workItem from="1607225940200" duration="1849000" />
       <workItem from="1607228359364" duration="20664000" />
-      <workItem from="1607350859816" duration="2035000" />
+      <workItem from="1607350859816" duration="3215000" />
     </task>
     <task id="LOCAL-00001" summary="完善shell脚本&#10;注意shell脚本在linux下编写，不然会出现^M问题，mac忽略">
       <created>1607253324448</created>
@@ -128,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607262194740</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="构建客户端&#10;添加gitignore">
+      <created>1607353164419</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607353164419</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +156,8 @@
     <MESSAGE value="完善shell脚本&#10;注意shell脚本在linux下编写，不然会出现^M问题，mac忽略" />
     <MESSAGE value="完善shell脚本读取参数问题" />
     <MESSAGE value="启动其他二个goods服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="启动其他二个goods服务" />
+    <MESSAGE value="构建客户端&#10;添加gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="构建客户端&#10;添加gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="502" y="219" key="#Deployment" timestamp="1607252806341">
@@ -172,10 +188,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1303" y="289" key="#docker-compose.yml:_Compose_Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1604233858591" />
-    <state x="513" y="0" key="CommitChangelistDialog2" timestamp="1607262194050">
+    <state x="513" y="0" key="CommitChangelistDialog2" timestamp="1607353162922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="513" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607262194050" />
+    <state x="513" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607353162922" />
     <state x="-254" y="210" width="1720" height="825" key="DiffContextDialog" timestamp="1607253457294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,10 +208,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="130" y="130" width="1412" height="776" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607229033918" />
-    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1607261551238">
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2" timestamp="1607353166891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607261551238" />
+    <state x="552" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607353166891" />
     <state x="726" y="251" width="594" height="564" key="find.popup" timestamp="1607154506340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

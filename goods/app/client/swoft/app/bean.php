@@ -114,6 +114,22 @@ return [
             'prefix' => 'swoft:'
         ]
     ],
+    'goods'               => [
+        'class'   => ServiceClient::class,
+        'host'    => '192.168.145.128',
+        'port'    => 18317,
+        'setting' => [
+            'timeout'         => 0.5,
+            'connect_timeout' => 1.0,
+            'write_timeout'   => 10.0,
+            'read_timeout'    => 0.5,
+        ],
+        'packet'  => bean('rpcClientPacket')
+    ],
+    'goods.pool'          => [
+        'class'  => ServicePool::class,
+        'client' => bean('goods'),
+    ],
     'user'               => [
         'class'   => ServiceClient::class,
         'host'    => '127.0.0.1',
