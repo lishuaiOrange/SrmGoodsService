@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ed938e2-8d4e-408a-8e0c-cca8871973c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/goods/docker_compose/app/client/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goods/docker_compose/app/server/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/goods/docker_compose/app/server/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +31,19 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../consul" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SRM" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\phpStudy\WWW\srm-docker\03" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\phpStudy\WWW\srm-docker\goods\docker_compose\app" />
       <recent name="F:\phpStudy\WWW\srm-docker\goods\app\server\swoft\config" />
       <recent name="F:\phpStudy\WWW\srm-docker\goods\app\server\swoft" />
       <recent name="F:\phpStudy\WWW\srm-docker\goods\app\server" />
       <recent name="F:\phpStudy\WWW\srm-docker\goods" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\phpStudy\WWW\srm-docker\03" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
@@ -103,7 +104,8 @@
       <workItem from="1607138712356" duration="5734000" />
       <workItem from="1607179771826" duration="2049000" />
       <workItem from="1607225940200" duration="1849000" />
-      <workItem from="1607228359364" duration="19507000" />
+      <workItem from="1607228359364" duration="20664000" />
+      <workItem from="1607350859816" duration="2035000" />
     </task>
     <task id="LOCAL-00001" summary="完善shell脚本&#10;注意shell脚本在linux下编写，不然会出现^M问题，mac忽略">
       <created>1607253324448</created>
@@ -119,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607261548981</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="启动其他二个goods服务">
+      <created>1607262194740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607262194740</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +140,8 @@
     </ignored-roots>
     <MESSAGE value="完善shell脚本&#10;注意shell脚本在linux下编写，不然会出现^M问题，mac忽略" />
     <MESSAGE value="完善shell脚本读取参数问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善shell脚本读取参数问题" />
+    <MESSAGE value="启动其他二个goods服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="启动其他二个goods服务" />
   </component>
   <component name="WindowStateProjectService">
     <state x="502" y="219" key="#Deployment" timestamp="1607252806341">
@@ -162,10 +172,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1303" y="289" key="#docker-compose.yml:_Compose_Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1604233858591" />
-    <state x="513" y="0" key="CommitChangelistDialog2" timestamp="1607261548188">
+    <state x="513" y="0" key="CommitChangelistDialog2" timestamp="1607262194050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="513" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607261548188" />
+    <state x="513" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607262194050" />
     <state x="-254" y="210" width="1720" height="825" key="DiffContextDialog" timestamp="1607253457294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -174,10 +184,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="47" y="183" width="1736" height="856" key="DirDiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607228676379" />
-    <state x="673" y="359" key="FileChooserDialogImpl" timestamp="1607226999774">
+    <state x="673" y="359" key="FileChooserDialogImpl" timestamp="1607351748342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="673" y="359" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607226999774" />
+    <state x="673" y="359" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607351748342" />
     <state x="130" y="130" width="1412" height="776" key="SettingsEditor" timestamp="1607229033918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
